@@ -1,0 +1,19 @@
+{
+  "football1.jpg559745": {
+    "filename": "football1.jpg",
+    "size": 559745,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "polygon",
+          "all_points_x": [485, 748, 826, 732, 416, 216, 143, 315],
+          "all_points_y": [158, 248, 475, 756, 821, 704, 407, 201]
+        },
+        "region_attributes": {
+          "objects": "football"
+        }
+      }
+    ],
+    "file_attributes": {}
+  }
+}
