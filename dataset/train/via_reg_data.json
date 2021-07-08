@@ -1,16 +1,41 @@
 {
-  "football1.jpg559745": {
-    "filename": "football1.jpg",
-    "size": 559745,
+  "shirt1.jpg212741": {
+    "filename": "shirt1.jpg",
+    "size": 212741,
     "regions": [
       {
         "shape_attributes": {
           "name": "polygon",
-          "all_points_x": [485, 748, 826, 732, 416, 216, 143, 315],
-          "all_points_y": [158, 248, 475, 756, 821, 704, 407, 201]
+          "all_points_x": [
+            412, 489, 589, 804, 995, 944, 797, 804, 191, 178, 58, 0, 198
+          ],
+          "all_points_y": [
+            34, 62, 37, 112, 221, 426, 424, 966, 973, 417, 452, 235, 108
+          ]
         },
         "region_attributes": {
-          "objects": "football"
+          "objects": "shirt"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "shirt2.jpg280492": {
+    "filename": "shirt2.jpg",
+    "size": 280492,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "polygon",
+          "all_points_x": [
+            389, 484, 607, 815, 984, 930, 804, 817, 155, 183, 52, 6, 188
+          ],
+          "all_points_y": [
+            28, 66, 31, 121, 237, 454, 426, 984, 993, 418, 440, 228, 111
+          ]
+        },
+        "region_attributes": {
+          "objects": "shirt"
         }
       }
     ],

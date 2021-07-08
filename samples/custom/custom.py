@@ -45,7 +45,7 @@ class CustomConfig(Config):
     NUM_CLASSES = 1 + 2  # Background + toy
 
     # Number of training steps per epoch
-    STEPS_PER_EPOCH = 1
+    STEPS_PER_EPOCH = 2
 
     # Skip detections with < 90% confidence
     DETECTION_MIN_CONFIDENCE = 0.9
@@ -63,7 +63,7 @@ class CustomDataset(utils.Dataset):
         subset: Subset to load: train or val
         """
         # Add classes. We have only one class to add.
-        self.add_class("object", 1, "football")
+        self.add_class("object", 1, "shirt")
         self.add_class("object", 2, "balloon")
 
         # Train or validation dataset?
@@ -104,7 +104,7 @@ class CustomDataset(utils.Dataset):
 
             objects = [s['region_attributes']['objects'] for s in a['regions']]
             print("objects:", objects)
-            name_dict = {"football": 1, "balloon": 2}
+            name_dict = {"shirt": 1, "balloon": 2}
             # key = tuple(name_dict)
             num_ids = [name_dict[a] for a in objects]
 
@@ -185,7 +185,8 @@ def train(model):
     print("Training network heads")
     model.train(dataset_train, dataset_val,
                 learning_rate=config.LEARNING_RATE,
-                epochs=10,
+                # epochs=10,
+                epochs=2,
                 layers='heads')
 
 
