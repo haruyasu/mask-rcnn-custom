@@ -1,16 +1,16 @@
 {
-  "shirt1.jpg212741": {
-    "filename": "shirt1.jpg",
-    "size": 212741,
+  "hc2-10409146-1a9_1.jpg55936": {
+    "filename": "hc2-10409146-1a9_1.jpg",
+    "size": 55936,
     "regions": [
       {
         "shape_attributes": {
           "name": "polygon",
           "all_points_x": [
-            412, 489, 589, 804, 995, 944, 797, 804, 191, 178, 58, 0, 198
+            414, 488, 572, 658, 696, 621, 640, 467, 342, 384, 302, 344
           ],
           "all_points_y": [
-            34, 62, 37, 112, 221, 426, 424, 966, 973, 417, 452, 235, 108
+            259, 281, 249, 284, 383, 416, 759, 760, 737, 426, 385, 293
           ]
         },
         "region_attributes": {
@@ -20,18 +20,196 @@
     ],
     "file_attributes": {}
   },
-  "shirt2.jpg280492": {
-    "filename": "shirt2.jpg",
-    "size": 280492,
+  "hc2-10447215-1089.jpg72178": {
+    "filename": "hc2-10447215-1089.jpg",
+    "size": 72178,
     "regions": [
       {
         "shape_attributes": {
           "name": "polygon",
           "all_points_x": [
-            389, 484, 607, 815, 984, 930, 804, 817, 155, 183, 52, 6, 188
+            414, 502, 572, 578, 641, 688, 702, 638, 617, 642, 663, 501, 379,
+            367, 284, 302, 354
           ],
           "all_points_y": [
-            28, 66, 31, 121, 237, 454, 426, 984, 993, 418, 440, 228, 111
+            262, 319, 298, 274, 298, 331, 430, 451, 564, 675, 835, 859, 815,
+            453, 420, 323, 279
+          ]
+        },
+        "region_attributes": {
+          "objects": "shirt"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "hc2-10473491-3c17.jpg55304": {
+    "filename": "hc2-10473491-3c17.jpg",
+    "size": 55304,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "polygon",
+          "all_points_x": [
+            441, 506, 562, 673, 715, 614, 625, 658, 351, 384, 375, 262, 321, 354
+          ],
+          "all_points_y": [
+            249, 277, 256, 300, 478, 499, 607, 727, 730, 568, 485, 464, 304, 279
+          ]
+        },
+        "region_attributes": {
+          "objects": "shirt"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "hc2-10491272-57e.jpg53604": {
+    "filename": "hc2-10491272-57e.jpg",
+    "size": 53604,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "polygon",
+          "all_points_x": [
+            428, 462, 533, 565, 581, 640, 688, 727, 631, 635, 678, 505, 346,
+            365, 370, 279, 321, 377
+          ],
+          "all_points_y": [
+            253, 281, 305, 278, 249, 284, 316, 493, 523, 612, 816, 826, 823,
+            646, 486, 467, 307, 262
+          ]
+        },
+        "region_attributes": {
+          "objects": "shirt"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "hc2-10520270-27a9.jpg55435": {
+    "filename": "hc2-10520270-27a9.jpg",
+    "size": 55435,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "polygon",
+          "all_points_x": [
+            440, 486, 565, 567, 662, 712, 621, 625, 633, 460, 354, 396, 372,
+            315, 354
+          ],
+          "all_points_y": [
+            254, 275, 243, 235, 263, 411, 446, 543, 727, 732, 719, 538, 444,
+            446, 295
+          ]
+        },
+        "region_attributes": {
+          "objects": "shirt"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "hc2-10520270-96f9.jpg52279": {
+    "filename": "hc2-10520270-96f9.jpg",
+    "size": 52279,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "polygon",
+          "all_points_x": [
+            441, 443, 501, 555, 569, 670, 715, 632, 629, 673, 368, 380, 381,
+            281, 337
+          ],
+          "all_points_y": [
+            237, 264, 275, 268, 243, 298, 435, 473, 598, 727, 744, 549, 458,
+            433, 272
+          ]
+        },
+        "region_attributes": {
+          "objects": "shirt"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "hc2-10520370-d9d4.jpg57355": {
+    "filename": "hc2-10520370-d9d4.jpg",
+    "size": 57355,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "polygon",
+          "all_points_x": [
+            428, 478, 533, 570, 663, 705, 621, 626, 636, 346, 380, 388, 305, 340
+          ],
+          "all_points_y": [
+            268, 294, 300, 264, 301, 475, 498, 553, 783, 768, 588, 496, 472, 306
+          ]
+        },
+        "region_attributes": {
+          "objects": "shirt"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "hc2-10529088-b654.jpg66655": {
+    "filename": "hc2-10529088-b654.jpg",
+    "size": 66655,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "polygon",
+          "all_points_x": [
+            425, 425, 493, 572, 656, 719, 631, 620, 647, 477, 332, 384, 379,
+            290, 347
+          ],
+          "all_points_y": [
+            263, 283, 309, 259, 285, 433, 474, 599, 775, 780, 770, 572, 486,
+            448, 309
+          ]
+        },
+        "region_attributes": {
+          "objects": "shirt"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "hc2-10529107-5dbe.jpg57535": {
+    "filename": "hc2-10529107-5dbe.jpg",
+    "size": 57535,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "polygon",
+          "all_points_x": [
+            440, 489, 575, 595, 678, 726, 621, 647, 579, 373, 384, 284, 338
+          ],
+          "all_points_y": [
+            252, 281, 279, 257, 301, 537, 558, 705, 674, 659, 516, 499, 290
+          ]
+        },
+        "region_attributes": {
+          "objects": "shirt"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "hc2-10529107-13f5.jpg51730": {
+    "filename": "hc2-10529107-13f5.jpg",
+    "size": 51730,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "polygon",
+          "all_points_x": [
+            451, 519, 585, 606, 691, 732, 643, 674, 668, 510, 369, 380, 272, 354
+          ],
+          "all_points_y": [
+            259, 294, 301, 279, 323, 554, 580, 623, 709, 664, 683, 522, 475, 288
           ]
         },
         "region_attributes": {
