@@ -66,7 +66,7 @@ class CustomDataset(utils.Dataset):
         # Add classes. We have only one class to add.
         self.add_class("object", 1, "shirt")
         self.add_class("object", 2, "long")
-        self.add_class("object", 2, "pants")
+        self.add_class("object", 3, "pants")
 
         # Train or validation dataset?
         assert subset in ["train", "val"]
