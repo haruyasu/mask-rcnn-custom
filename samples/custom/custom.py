@@ -42,8 +42,11 @@ class CustomConfig(Config):
     # Adjust down if you use a smaller GPU.
     IMAGES_PER_GPU = 2
 
+    ############################
+    # Attributeの数によって変更 #
+    ############################
     # Number of classes (including background)
-    NUM_CLASSES = 1 + 2  # Background + toy
+    NUM_CLASSES = 1 + 3  # Background + Attribute num
 
     # Number of training steps per epoch
     STEPS_PER_EPOCH = 100
