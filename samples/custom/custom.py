@@ -66,6 +66,7 @@ class CustomDataset(utils.Dataset):
         # Add classes. We have only one class to add.
         self.add_class("object", 1, "shirt")
         self.add_class("object", 2, "long")
+        self.add_class("object", 2, "pants")
 
         # Train or validation dataset?
         assert subset in ["train", "val"]
@@ -105,7 +106,7 @@ class CustomDataset(utils.Dataset):
 
             objects = [s['region_attributes']['objects'] for s in a['regions']]
             print("objects:", objects)
-            name_dict = {"shirt": 1, "long": 2}
+            name_dict = {"shirt": 1, "long": 2, "pants": 3}
             # key = tuple(name_dict)
             num_ids = [name_dict[a] for a in objects]
 
