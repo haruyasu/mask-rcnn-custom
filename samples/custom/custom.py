@@ -13,10 +13,9 @@ ROOT_DIR = os.path.abspath("../../")
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
 
-from mrcnn.visualize import display_instances
-from mrcnn.config import Config
 from mrcnn import model as modellib, utils
-
+from mrcnn.config import Config
+from mrcnn.visualize import display_instances
 
 # Path to trained weights file
 COCO_WEIGHTS_PATH = os.path.join(ROOT_DIR, "mask_rcnn_coco.h5")
@@ -46,7 +45,7 @@ class CustomConfig(Config):
     # Attributeの数によって変更 #
     ############################
     # Number of classes (including background)
-    NUM_CLASSES = 1 + 3  # Background + Attribute num
+    NUM_CLASSES = 1 + 4  # Background + Attribute num
 
     # Number of training steps per epoch
     STEPS_PER_EPOCH = 100
@@ -66,10 +65,20 @@ class CustomDataset(utils.Dataset):
         dataset_dir: Root directory of the dataset.
         subset: Subset to load: train or val
         """
-        # Add classes. We have only one class to add.
+        ########################
+        # Attributeによって変更 #
+        ########################
         self.add_class("object", 1, "shirt")
         self.add_class("object", 2, "long")
         self.add_class("object", 3, "pants")
+        self.add_class("object", 4, "onepiece")
+
+        name_dict = {
+            "shirt": 1,
+            "long": 2,
+            "pants": 3,
+            "onepiece": 4,
+        }
 
         # Train or validation dataset?
         assert subset in ["train", "val"]
@@ -109,7 +118,7 @@ class CustomDataset(utils.Dataset):
 
             objects = [s['region_attributes']['objects'] for s in a['regions']]
             print("objects:", objects)
-            name_dict = {"shirt": 1, "long": 2, "pants": 3}
+
             # key = tuple(name_dict)
             num_ids = [name_dict[a] for a in objects]
 
