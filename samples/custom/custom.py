@@ -71,13 +71,13 @@ class CustomDataset(utils.Dataset):
         self.add_class("object", 1, "shirt")
         self.add_class("object", 2, "long")
         self.add_class("object", 3, "pants")
-        self.add_class("object", 4, "onepiece")
+        self.add_class("object", 4, "ワンピース")
 
         name_dict = {
             "shirt": 1,
             "long": 2,
             "pants": 3,
-            "onepiece": 4,
+            "ワンピース": 4,
         }
 
         # Train or validation dataset?
@@ -199,7 +199,7 @@ def train(model):
     print("Training network heads")
     model.train(dataset_train, dataset_val,
                 learning_rate=config.LEARNING_RATE,
-                epochs=30,
+                epochs=10,
                 layers='heads')
 
 
