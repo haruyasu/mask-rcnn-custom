@@ -60,3 +60,4 @@ ENV/
 myvenv
 *_bk
 predict
+wandb
