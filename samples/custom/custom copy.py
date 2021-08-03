@@ -1,6 +1,3 @@
-from mrcnn.visualize import display_instances
-from mrcnn.config import Config
-from mrcnn import model as modellib, utils
 import os
 import sys
 import json
@@ -16,6 +13,9 @@ ROOT_DIR = os.path.abspath("../../")
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
 
+from mrcnn import model as modellib, utils
+from mrcnn.config import Config
+from mrcnn.visualize import display_instances
 
 # Path to trained weights file
 COCO_WEIGHTS_PATH = os.path.join(ROOT_DIR, "mask_rcnn_coco.h5")
@@ -68,16 +68,16 @@ class CustomDataset(utils.Dataset):
         ########################
         # Attributeによって変更 #
         ########################
-        self.add_class("object", 1, "long-pants")
-        self.add_class("object", 2, "long-sleeve")
-        self.add_class("object", 3, "short-pants")
-        self.add_class("object", 4, "short-sleeve")
+        self.add_class("object", 1, "shirt")
+        self.add_class("object", 2, "long")
+        self.add_class("object", 3, "pants")
+        self.add_class("object", 4, "ワンピース")
 
         name_dict = {
-            "long-pants": 1,
-            "long-sleeve": 2,
-            "short-pants": 3,
-            "short-sleeve": 4,
+            "shirt": 1,
+            "long": 2,
+            "pants": 3,
+            "ワンピース": 4,
         }
 
         # Train or validation dataset?
