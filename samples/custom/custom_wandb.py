@@ -74,14 +74,16 @@ class CustomDataset(utils.Dataset):
         ########################
         # Attributeによって変更 #
         ########################
-        self.add_class("object", 1, "shirt")
-        self.add_class("object", 2, "long")
-        self.add_class("object", 3, "pants")
+        self.add_class("object", 1, "long-pants")
+        self.add_class("object", 2, "long-sleeve")
+        self.add_class("object", 3, "short-pants")
+        self.add_class("object", 4, "short-sleeve")
 
         name_dict = {
-            "shirt": 1,
-            "long": 2,
-            "pants": 3,
+            "long-pants": 1,
+            "long-sleeve": 2,
+            "short-pants": 3,
+            "short-sleeve": 4,
         }
 
         # Train or validation dataset?
@@ -121,7 +123,8 @@ class CustomDataset(utils.Dataset):
             polygons = [r['shape_attributes'] for r in a['regions']]
 
             objects = [s['region_attributes']['objects'] for s in a['regions']]
-            print("objects:", objects)
+
+            # print("objects:", objects)
 
             # key = tuple(name_dict)
             num_ids = [name_dict[a] for a in objects]
@@ -130,7 +133,9 @@ class CustomDataset(utils.Dataset):
             # load_mask() needs the image size to convert polygons to masks.
             # Unfortunately, VIA doesn't include it in JSON, so we must read
             # the image. This is only managable since the dataset is tiny.
-            print("filename", a['filename'])
+
+            # print("filename", a['filename'])
+
             # if a['filename'] == 'football13.jpg' or a['filename'] == 'football76.jpg':
             #     break
             image_path = os.path.join(dataset_dir, a['filename'])
@@ -210,9 +215,10 @@ def train(model):
         custom_callbacks=[WandbCallback(
             data_type="image",
             labels=[
-                "shirt",
-                "long",
-                "pants",
+                "long-pants",
+                "long-sleeve",
+                "short-pants",
+                "short-sleeve",
             ]
         )]
     )
