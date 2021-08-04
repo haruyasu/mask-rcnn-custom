@@ -8508,7 +8508,7 @@
             386, 396, 386, 384, 384, 392, 400, 387, 370, 366, 347, 331, 305
           ]
         },
-        "region_attributes": {}
+        "region_attributes": { "objects": "short-sleeve" }
       }
     ],
     "file_attributes": {}
@@ -8539,7 +8539,7 @@
             294, 288, 281, 273, 279, 308, 301, 287, 285, 277, 248
           ]
         },
-        "region_attributes": {}
+        "region_attributes": { "objects": "short-sleeve" }
       }
     ],
     "file_attributes": {}
@@ -8570,7 +8570,7 @@
             289, 289, 289, 282, 248
           ]
         },
-        "region_attributes": {}
+        "region_attributes": { "objects": "short-sleeve" }
       }
     ],
     "file_attributes": {}
@@ -8603,7 +8603,7 @@
             279, 270, 260, 270, 275, 275, 262, 253
           ]
         },
-        "region_attributes": {}
+        "region_attributes": { "objects": "short-sleeve" }
       }
     ],
     "file_attributes": {}
@@ -8632,7 +8632,7 @@
             345, 329, 302, 290, 274
           ]
         },
-        "region_attributes": {}
+        "region_attributes": { "objects": "short-sleeve" }
       }
     ],
     "file_attributes": {}
@@ -8659,7 +8659,7 @@
             366, 354, 344, 305, 296, 281, 251, 242, 234
           ]
         },
-        "region_attributes": {}
+        "region_attributes": { "objects": "short-sleeve" }
       }
     ],
     "file_attributes": {}
@@ -8686,7 +8686,7 @@
             443, 419, 384, 351, 316, 301, 272, 253, 243
           ]
         },
-        "region_attributes": {}
+        "region_attributes": { "objects": "short-sleeve" }
       }
     ],
     "file_attributes": {}
@@ -8717,7 +8717,7 @@
             353, 323, 301, 283, 273, 267, 255, 240, 240, 229
           ]
         },
-        "region_attributes": {}
+        "region_attributes": { "objects": "short-sleeve" }
       }
     ],
     "file_attributes": {}
@@ -8748,7 +8748,7 @@
             358, 323, 300, 290, 277
           ]
         },
-        "region_attributes": {}
+        "region_attributes": { "objects": "short-sleeve" }
       }
     ],
     "file_attributes": {}
@@ -8775,7 +8775,7 @@
             369, 325, 296, 284, 255, 236
           ]
         },
-        "region_attributes": {}
+        "region_attributes": { "objects": "short-sleeve" }
       }
     ],
     "file_attributes": {}
@@ -8804,7 +8804,7 @@
             373, 330, 312, 288, 259, 252, 243
           ]
         },
-        "region_attributes": {}
+        "region_attributes": { "objects": "short-sleeve" }
       }
     ],
     "file_attributes": {}
@@ -8835,7 +8835,7 @@
             325, 351, 370, 376, 376, 376, 363, 345, 328, 313, 295
           ]
         },
-        "region_attributes": {}
+        "region_attributes": { "objects": "short-sleeve" }
       }
     ],
     "file_attributes": {}
@@ -8861,7 +8861,7 @@
             445, 428, 427, 427, 424, 411, 400, 284, 228, 208, 160, 133, 89
           ]
         },
-        "region_attributes": {}
+        "region_attributes": { "objects": "short-sleeve" }
       }
     ],
     "file_attributes": {}

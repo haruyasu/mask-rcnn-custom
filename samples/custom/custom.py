@@ -1,6 +1,3 @@
-from mrcnn.visualize import display_instances
-from mrcnn.config import Config
-from mrcnn import model as modellib, utils
 import os
 import sys
 import json
@@ -16,6 +13,9 @@ ROOT_DIR = os.path.abspath("../../")
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
 
+from mrcnn import model as modellib, utils
+from mrcnn.config import Config
+from mrcnn.visualize import display_instances
 
 # Path to trained weights file
 COCO_WEIGHTS_PATH = os.path.join(ROOT_DIR, "mask_rcnn_coco.h5")
@@ -45,6 +45,7 @@ class CustomConfig(Config):
     # Attributeの数によって変更 #
     ############################
     # Number of classes (including background)
+    # NUM_CLASSES = 1 + 3  # Background + Attribute num
     NUM_CLASSES = 1 + 4  # Background + Attribute num
 
     # Number of training steps per epoch
@@ -68,6 +69,15 @@ class CustomDataset(utils.Dataset):
         ########################
         # Attributeによって変更 #
         ########################
+        # self.add_class("object", 1, "shirt")
+        # self.add_class("object", 2, "long")
+        # self.add_class("object", 3, "pants")
+
+        # name_dict = {
+        #     "shirt": 1,
+        #     "long": 2,
+        #     "pants": 3,
+        # }
         self.add_class("object", 1, "long-pants")
         self.add_class("object", 2, "long-sleeve")
         self.add_class("object", 3, "short-pants")
@@ -117,18 +127,23 @@ class CustomDataset(utils.Dataset):
             polygons = [r['shape_attributes'] for r in a['regions']]
 
             objects = [s['region_attributes']['objects'] for s in a['regions']]
-            print("objects:", objects)
+
+            # print("objects: ", objects)
+
+            # print('name_dict: ',name_dict)
 
             # key = tuple(name_dict)
             num_ids = [name_dict[a] for a in objects]
+
+            # print('num_ids: ', num_ids)
 
             # num_ids = [int(n['Event']) for n in objects]
             # load_mask() needs the image size to convert polygons to masks.
             # Unfortunately, VIA doesn't include it in JSON, so we must read
             # the image. This is only managable since the dataset is tiny.
-            print("filename", a['filename'])
-            # if a['filename'] == 'football13.jpg' or a['filename'] == 'football76.jpg':
-            #     break
+
+            # print("filename", a['filename'])
+
             image_path = os.path.join(dataset_dir, a['filename'])
             image = skimage.io.imread(image_path)
             height, width = image.shape[:2]

@@ -33980,7 +33980,9 @@
             635, 667, 648, 629, 578, 550, 490, 479, 418, 385, 360
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -39758,7 +39760,9 @@
             516, 510, 504, 480, 460, 407, 391, 366, 317, 309, 266, 246, 246
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -39785,7 +39789,9 @@
             502, 485, 448, 438, 401, 376, 350, 307, 289, 267, 244, 234, 235, 217
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -39818,7 +39824,9 @@
             372, 368, 391, 389, 404, 424, 400, 363, 337, 298, 300
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -39847,7 +39855,9 @@
             422, 415, 376, 350, 322, 285, 266, 254, 224
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -39882,7 +39892,9 @@
             311, 296, 278, 274
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -39913,7 +39925,9 @@
             304, 280, 266, 256, 240, 229
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -39944,7 +39958,9 @@
             422, 380, 352, 333, 317, 291, 279, 259, 252, 240, 238, 229, 229
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -39975,7 +39991,9 @@
             241, 235
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40006,7 +40024,9 @@
             471, 452, 420, 400, 362, 306, 299, 277, 265, 256, 245, 216
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40037,7 +40057,9 @@
             238, 232, 220, 205, 199
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40070,7 +40092,9 @@
             284, 277
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40101,7 +40125,9 @@
             393, 399, 433, 418, 421, 404, 384, 374, 354, 337, 323, 313, 305, 296
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40132,7 +40158,9 @@
             251, 250
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40163,7 +40191,9 @@
             460, 378, 357, 332, 315, 302, 295, 282, 273, 266, 265, 255
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40194,7 +40224,9 @@
             277, 267, 249, 239, 226, 210
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40225,7 +40257,9 @@
             354, 323, 304, 282, 267, 260, 252, 239, 227, 211
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40254,7 +40288,9 @@
             298, 285, 273, 267
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40285,7 +40321,9 @@
             377, 385, 387, 376, 359, 335, 316, 309
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40316,7 +40354,9 @@
             298, 288, 282, 274, 273, 265, 255, 251
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40345,7 +40385,9 @@
             283, 265, 265, 256, 252, 249, 233
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40374,7 +40416,9 @@
             346, 315, 288, 277, 261, 255, 246, 241
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40401,7 +40445,9 @@
             477, 465, 455, 423, 387, 357, 321, 311, 298, 284, 273, 267
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40428,7 +40474,9 @@
             404, 383, 335, 326, 302, 287, 277
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40459,7 +40507,9 @@
             396, 426, 443, 433, 402, 406, 387, 377, 370, 346
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40488,7 +40538,9 @@
             273, 260, 251, 240, 243
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40519,7 +40571,9 @@
             373, 360, 348, 335, 326, 311
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40550,7 +40604,9 @@
             351, 343, 359, 367, 359, 368, 368, 339, 328, 306
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40579,7 +40635,9 @@
             439, 426, 393, 333, 306, 295, 289, 304, 295, 300, 293, 298, 287, 289
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40610,7 +40668,9 @@
             274, 266, 260
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40643,7 +40703,9 @@
             179, 165, 163, 163, 170, 176, 176, 176, 163, 159, 161
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40674,7 +40736,9 @@
             306, 289, 277, 267
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40703,7 +40767,9 @@
             344, 323, 309, 293, 287, 279, 272, 272, 256, 244
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40734,7 +40800,9 @@
             338, 329, 320, 315, 307, 301, 289, 289, 274
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40765,7 +40833,9 @@
             301, 295, 287
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40800,7 +40870,9 @@
             293, 284, 272, 268
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40827,7 +40899,9 @@
             439, 417, 377, 346, 302, 291, 276, 261, 256, 256, 265
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40858,7 +40932,9 @@
             487, 472, 472, 468, 456, 417, 393, 361, 332, 310, 288, 282, 277, 267
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40887,7 +40963,9 @@
             305, 293, 290, 278
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40914,7 +40992,9 @@
             399, 374, 370, 374, 376, 367, 340, 327, 316, 289
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40943,7 +41023,9 @@
             370, 400, 395, 376, 410, 420, 393, 357, 329, 317, 279
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40970,7 +41052,9 @@
             456, 449, 448, 428, 387, 351, 326, 305, 291, 257
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -40999,7 +41083,9 @@
             295, 279, 272, 260
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41028,7 +41114,9 @@
             446, 411, 373, 344, 312, 296, 266
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41057,7 +41145,9 @@
             317, 305, 290, 283, 278, 263
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41084,7 +41174,9 @@
             513, 509, 471, 426, 405, 379, 367, 351, 334, 322, 306, 298, 284
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41113,7 +41205,9 @@
             340, 337, 329, 328
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41144,7 +41238,9 @@
             267, 265, 261, 254, 252
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41173,7 +41269,9 @@
             499, 498, 498, 498, 493, 445, 415, 363, 332, 293, 301, 298, 274
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41200,7 +41298,9 @@
             296, 282, 268, 282, 291, 291, 276, 257, 251
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41229,7 +41329,9 @@
             245, 240, 235
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41258,7 +41360,9 @@
             420, 385, 352, 322, 309, 300, 293, 282, 277, 263, 256, 251
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41285,7 +41389,9 @@
             277, 270, 261, 245, 237
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41312,7 +41418,9 @@
             484, 426, 372, 334, 316, 301, 283, 263, 250
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41339,7 +41447,9 @@
             395, 352, 333, 317, 302, 279, 261, 245, 233
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41366,7 +41476,9 @@
             563, 556, 550, 520, 437, 351, 330, 315, 287, 262, 254, 243
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41393,7 +41505,9 @@
             293, 276, 259, 249
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41424,7 +41538,9 @@
             299, 266, 266, 259, 238
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41451,7 +41567,9 @@
             532, 520, 520, 507, 487, 362, 338, 290, 277, 246, 234
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41480,7 +41598,9 @@
             476, 441, 409, 372, 332, 282, 260, 249, 241, 241
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41507,7 +41627,9 @@
             291, 265, 252, 237
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41534,7 +41656,9 @@
             304, 256, 235
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41561,7 +41685,9 @@
             484, 457, 429, 406, 379, 345, 300, 252, 239, 205, 185, 159
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41588,7 +41714,9 @@
             501, 495, 488, 480, 444, 370, 321, 310, 298, 282, 266, 263, 254, 241
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41615,7 +41743,9 @@
             543, 539, 535, 505, 463, 402, 333, 290, 273, 263, 249, 238
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41642,7 +41772,9 @@
             260, 238, 228
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41669,7 +41801,9 @@
             476, 454, 407, 382, 355, 338, 333, 311, 299, 259, 243, 238, 226
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41698,7 +41832,9 @@
             215, 173, 165, 159, 144, 133, 130, 105
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41727,7 +41863,9 @@
             320, 309, 261, 246, 239, 227
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41754,7 +41892,9 @@
             523, 506, 501, 496, 387, 320, 304, 277, 262, 256, 241
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41781,7 +41921,9 @@
             450, 366, 277, 256, 201, 188, 173, 148
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41808,7 +41950,9 @@
             512, 467, 365, 329, 302, 289, 243, 237, 218
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41835,7 +41979,9 @@
             359, 323, 305, 291, 277, 265, 249
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41862,7 +42008,9 @@
             521, 512, 500, 493, 418, 377, 329, 309, 298, 265, 256, 241
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41889,7 +42037,9 @@
             520, 452, 402, 352, 310, 287, 241, 222
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41916,7 +42066,9 @@
             155, 130
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41943,7 +42095,9 @@
             304, 261, 261, 246
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41970,7 +42124,9 @@
             300, 243, 229, 223
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -41997,7 +42153,9 @@
             351, 318, 294, 271, 260, 238
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42024,7 +42182,9 @@
             296, 272, 263, 238, 235, 222
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42049,7 +42209,9 @@
             513, 485, 476, 404, 362, 317, 291, 263, 244, 227, 154, 127
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42076,7 +42238,9 @@
             494, 491, 467, 388, 340, 326, 300, 245
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42103,7 +42267,9 @@
             338, 320, 295, 244, 243, 233
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42132,7 +42298,9 @@
             602, 600, 602, 593, 585, 566, 485, 398, 355, 306, 291, 268, 270
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42159,7 +42327,9 @@
             328, 298, 267, 250
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42186,7 +42356,9 @@
             520, 507, 496, 418, 356, 326, 307, 284, 282, 282, 259
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42217,7 +42389,9 @@
             334, 317, 280, 255
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42244,7 +42418,9 @@
             376, 344, 332, 278
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42269,7 +42445,9 @@
             530, 506, 443, 421, 394, 360, 316, 294, 256
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42296,7 +42474,9 @@
             389, 383, 399, 387, 363, 344, 318, 298, 284
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42323,7 +42503,9 @@
             339, 328, 343, 324, 288, 273
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42350,7 +42532,9 @@
             406, 379, 368, 356, 332, 294
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42377,7 +42561,9 @@
             294, 285
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42404,7 +42590,9 @@
             249, 240
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42429,7 +42617,9 @@
             437, 448, 456, 441, 424, 406, 379, 321, 295, 280, 268, 256, 252
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42458,7 +42648,9 @@
             265, 261
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42483,7 +42675,9 @@
             439, 430, 411, 398, 376, 363, 340, 311, 283, 280, 254
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42510,7 +42704,9 @@
             280, 277
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42539,7 +42735,9 @@
             389, 357, 316, 278
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
@@ -42566,7 +42764,9 @@
             455, 399, 380, 362, 354, 343, 330
           ]
         },
-        "region_attributes": {}
+        "region_attributes": {
+          "objects": "short-sleeve"
+        }
       }
     ],
     "file_attributes": {}
