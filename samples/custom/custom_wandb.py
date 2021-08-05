@@ -51,7 +51,7 @@ class CustomConfig(Config):
     # Attributeの数によって変更 #
     ############################
     # Number of classes (including background)
-    NUM_CLASSES = 1 + 3  # Background + Attribute num
+    NUM_CLASSES = 1 + 4  # Background + Attribute num
 
     # Number of training steps per epoch
     STEPS_PER_EPOCH = 100
@@ -210,17 +210,19 @@ def train(model):
         dataset_train,
         dataset_val,
         learning_rate=config.LEARNING_RATE,
-        epochs=10,
+        epochs=200,
         layers='heads',
-        custom_callbacks=[WandbCallback(
-            data_type="image",
-            labels=[
-                "long-pants",
-                "long-sleeve",
-                "short-pants",
-                "short-sleeve",
-            ]
-        )]
+        custom_callbacks=[
+            WandbCallback(
+                data_type="image",
+                labels=[
+                    "long-pants",
+                    "long-sleeve",
+                    "short-pants",
+                    "short-sleeve",
+                ]
+            )
+        ]
     )
 
 
