@@ -2346,10 +2346,16 @@ class MaskRCNN():
             # モデル保存(10epoch毎)
             # https://keras.io/ja/callbacks/
             keras.callbacks.ModelCheckpoint(
-                self.checkpoint_path,
-                verbose=0,
-                save_weights_only=True,
-                # period=5
+                # self.checkpoint_path,
+                # verbose=0,
+                # save_weights_only=True,
+                # # period=5
+                filepath=self.checkpoint_path,
+                monitor='loss',
+                save_best_only=True,
+                save_weight_only=False,
+                mode='min',
+                period=1
             ),
         ]
 
