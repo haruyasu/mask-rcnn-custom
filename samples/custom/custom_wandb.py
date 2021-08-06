@@ -357,11 +357,19 @@ if __name__ == '__main__':
 
     # Create model
     if args.command == "train":
-        model = modellib.MaskRCNN(mode="training", config=config,
-                                  model_dir=args.logs)
+        model = modellib.MaskRCNN(
+            mode="training",
+            config=config,
+            # model_dir=args.logs
+            model_dir=wandb.run.dir
+        )
     else:
-        model = modellib.MaskRCNN(mode="inference", config=config,
-                                  model_dir=args.logs)
+        model = modellib.MaskRCNN(
+            mode="inference",
+            config=config,
+            # model_dir=args.logs
+            model_dir=wandb.run.dir
+        )
 
     # Select weights file to load
     if args.weights.lower() == "coco":
