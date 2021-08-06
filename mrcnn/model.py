@@ -2349,7 +2349,7 @@ class MaskRCNN():
                 self.checkpoint_path,
                 verbose=0,
                 save_weights_only=True,
-                period=5
+                # period=5
             ),
         ]
 
@@ -2384,13 +2384,6 @@ class MaskRCNN():
             use_multiprocessing=True,
         )
         self.epoch = max(self.epoch, epochs)
-
-        save_weights_path = '/content/gdrive/My Drive/'+ self.checkpoint_path
-        print("--------")
-        print('save_weights_path', save_weights_path)
-        print("--------")
-
-        self.keras_model.save_weights(save_weights_path)
 
     def mold_inputs(self, images):
         """Takes a list of images and modifies them to the format expected

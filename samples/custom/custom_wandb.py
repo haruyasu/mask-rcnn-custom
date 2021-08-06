@@ -355,20 +355,21 @@ if __name__ == '__main__':
         config = InferenceConfig()
     config.display()
 
+    save_weights_path = '/content/gdrive/My Drive/'
+
     # Create model
     if args.command == "train":
         model = modellib.MaskRCNN(
             mode="training",
             config=config,
-            model_dir=args.logs
-            # model_dir=wandb.run.dir
+            # model_dir=args.logs
+            model_dir=save_weights_path
         )
     else:
         model = modellib.MaskRCNN(
             mode="inference",
             config=config,
             model_dir=args.logs
-            # model_dir=wandb.run.dir
         )
 
     # Select weights file to load
