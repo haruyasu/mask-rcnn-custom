@@ -2385,7 +2385,12 @@ class MaskRCNN():
         )
         self.epoch = max(self.epoch, epochs)
 
-        self.keras_model.save('/content/gdrive/My Drive/'+ self.checkpoint_path)
+        save_weights_path = '/content/gdrive/My Drive/'+ self.checkpoint_path
+        print("--------")
+        print('save_weights_path', save_weights_path)
+        print("--------")
+
+        self.keras_model.save_weights(save_weights_path)
 
     def mold_inputs(self, images):
         """Takes a list of images and modifies them to the format expected
