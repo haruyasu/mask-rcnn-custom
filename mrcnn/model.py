@@ -7,6 +7,7 @@ Licensed under the MIT License (see LICENSE for details)
 Written by Waleed Abdulla
 """
 
+from google.colab import drive
 import os
 import random
 import datetime
@@ -30,6 +31,7 @@ from distutils.version import LooseVersion
 assert LooseVersion(tf.__version__) >= LooseVersion("1.3")
 assert LooseVersion(keras.__version__) >= LooseVersion('2.0.8')
 
+drive.mount('/content/gdrive')
 
 ############################################################
 #  Utility Functions
@@ -2264,8 +2266,8 @@ class MaskRCNN():
                 print('Re-starting from epoch %d' % self.epoch)
 
         # Directory for training logs
-        # self.log_dir = os.path.join(self.model_dir, "{}{:%Y%m%dT%H%M}".format(self.config.NAME.lower(), now))
-        self.log_dir = self.model_dir
+        self.log_dir = os.path.join(self.model_dir, "{}{:%Y%m%dT%H%M}".format(self.config.NAME.lower(), now))
+        # self.log_dir = self.model_dir
 
         # Path to save after each epoch. Include placeholders that get filled by Keras.
         self.checkpoint_path = os.path.join(self.log_dir, "mask_rcnn_{}_*epoch*.h5".format(self.config.NAME.lower()))
@@ -2347,7 +2349,7 @@ class MaskRCNN():
                 self.checkpoint_path,
                 verbose=0,
                 save_weights_only=True,
-                # period=5
+                period=5
             ),
         ]
 
@@ -2382,6 +2384,8 @@ class MaskRCNN():
             use_multiprocessing=True,
         )
         self.epoch = max(self.epoch, epochs)
+
+        self.keras_model.save('/content/gdrive/My Drive/'+ self.checkpoint_path)
 
     def mold_inputs(self, images):
         """Takes a list of images and modifies them to the format expected

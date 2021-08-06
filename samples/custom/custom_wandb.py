@@ -360,15 +360,15 @@ if __name__ == '__main__':
         model = modellib.MaskRCNN(
             mode="training",
             config=config,
-            # model_dir=args.logs
-            model_dir=wandb.run.dir
+            model_dir=args.logs
+            # model_dir=wandb.run.dir
         )
     else:
         model = modellib.MaskRCNN(
             mode="inference",
             config=config,
-            # model_dir=args.logs
-            model_dir=wandb.run.dir
+            model_dir=args.logs
+            # model_dir=wandb.run.dir
         )
 
     # Select weights file to load
