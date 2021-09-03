@@ -209,7 +209,8 @@ def train(model):
     model.train(
         dataset_train,
         dataset_val,
-        learning_rate=config.LEARNING_RATE, # 検証
+        learning_rate=config.LEARNING_RATE * 10, # 検証
+        # learning_rate=config.LEARNING_RATE, # 検証
         # learning_rate=config.LEARNING_RATE / 10, # 検証
         # learning_rate=config.LEARNING_RATE / 100, # 検証
         # learning_rate=config.LEARNING_RATE / 1000, # 検証
