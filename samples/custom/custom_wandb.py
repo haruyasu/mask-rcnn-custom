@@ -209,7 +209,7 @@ def train(model):
     model.train(
         dataset_train,
         dataset_val,
-        learning_rate=config.LEARNING_RATE,
+        learning_rate=config.LEARNING_RATE / 10, # 検証
         epochs=200,
         layers='heads',
         custom_callbacks=[
