@@ -214,7 +214,8 @@ class Config(object):
         """Set values of computed attributes."""
         # Effective batch size
         # self.BATCH_SIZE = self.IMAGES_PER_GPU * self.GPU_COUNT
-        self.BATCH_SIZE = 2
+        # self.BATCH_SIZE = 2
+        self.BATCH_SIZE = 3
         # self.BATCH_SIZE = 5 # error
         # self.BATCH_SIZE = 16 # 検証 error
         # self.BATCH_SIZE = 32 # 検証
