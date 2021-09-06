@@ -31,7 +31,7 @@ class Config(object):
     # handle 2 images of 1024x1024px.
     # Adjust based on your GPU memory and image sizes. Use the highest
     # number that your GPU can handle for best performance.
-    IMAGES_PER_GPU = 3
+    IMAGES_PER_GPU = 2
 
     # Number of training steps per epoch
     # This doesn't need to match the size of the training set. Tensorboard
@@ -214,12 +214,6 @@ class Config(object):
         """Set values of computed attributes."""
         # Effective batch size
         self.BATCH_SIZE = self.IMAGES_PER_GPU * self.GPU_COUNT
-        # self.BATCH_SIZE = 2
-        # self.BATCH_SIZE = 3 # error
-        # self.BATCH_SIZE = 5 # error
-        # self.BATCH_SIZE = 16 # 検証 error
-        # self.BATCH_SIZE = 32 # 検証
-        # self.BATCH_SIZE = 64 # 検証
 
         # Input image size
         if self.IMAGE_RESIZE_MODE == "crop":
