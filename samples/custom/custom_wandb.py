@@ -45,7 +45,9 @@ class CustomConfig(Config):
 
     # We use a GPU with 12GB memory, which can fit two images.
     # Adjust down if you use a smaller GPU.
-    IMAGES_PER_GPU = 5
+    # IMAGES_PER_GPU = 2
+    # IMAGES_PER_GPU = 5
+    IMAGES_PER_GPU = 8
 
     ############################
     # Attributeの数によって変更 #
@@ -55,6 +57,7 @@ class CustomConfig(Config):
 
     # Number of training steps per epoch
     STEPS_PER_EPOCH = 100
+    # STEPS_PER_EPOCH = 500
 
     # Skip detections with < 90% confidence
     DETECTION_MIN_CONFIDENCE = 0.9
