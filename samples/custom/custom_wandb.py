@@ -56,7 +56,7 @@ class CustomConfig(Config):
     ############################
     # Number of classes (including background)
     # NUM_CLASSES = 1 + 4  # Background + Attribute num
-    NUM_CLASSES = 1 + 2  # Background + Attribute num
+    NUM_CLASSES = 1 + 3  # Background + Attribute num
 
     # Number of training steps per epoch
     STEPS_PER_EPOCH = 100
@@ -80,11 +80,13 @@ class CustomDataset(utils.Dataset):
         # Attributeによって変更 #
         ########################
         self.add_class("object", 1, "top")
-        self.add_class("object", 2, "buttom")
+        self.add_class("object", 2, "bottom")
+        self.add_class("object", 3, "dress")
 
         name_dict = {
             "top": 1,
-            "buttom": 2,
+            "bottom": 2,
+            "dress": 3,
         }
         # self.add_class("object", 1, "long-pants")
         # self.add_class("object", 2, "long-sleeve")
@@ -230,7 +232,8 @@ def train(model):
                 data_type="image",
                 labels=[
                     "top",
-                    "buttom",
+                    "bottom",
+                    "dress",
                     # "long-pants",
                     # "long-sleeve",
                     # "short-pants",
