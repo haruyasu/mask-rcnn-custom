@@ -226,7 +226,7 @@ def train(model):
         learning_rate=config.LEARNING_RATE,
         epochs=50,
         # layers='heads',
-        layers='4+',
+        layers='5+',
         custom_callbacks=[
             WandbCallback(
                 data_type="image",
